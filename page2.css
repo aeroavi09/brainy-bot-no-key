@@ -1,0 +1,25 @@
+#logoImage{
+    height: 100px;
+    width: 100px;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightgrey; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: darkgrey; 
+  }
+  
+body{
+    background-color: #323436;
+}

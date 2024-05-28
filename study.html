@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>BrainyBot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="study.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap"
+        rel="stylesheet">
+    <script src="study.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">BrainyBot</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--<style>
+        .loader {
+          border: 2px solid #f3f3f3;
+          border-radius: 50%;
+          border-top: 16px solid #585858;
+          width: 120px;
+          height: 120px;
+          -webkit-animation: spin 2s linear 2x; /* Safari */
+          animation: spin 2s linear infinite;
+        }
+        
+        /* Safari */
+        @-webkit-keyframes spin {
+          0% { -webkit-transform: rotate(0deg); }
+          100% { -webkit-transform: rotate(360deg); }
+        }
+        
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+        </style>
+        <script>
+            wait(1000)
+        </script>
+      <div class="loader" ></div>-->
+      <div style="justify-content: center;align-items: center;align-content: center;text-align: center; margin: 40px;">
+        <hr style="color: aliceblue;">
+        <h2 style="color: white;">Ready for your question?</h2>
+        <hr style="color: aliceblue;">
+        <button type="button" class="btn btn-secondary" onclick="question()">Give Question</button>
+      </div>
+      <div id="questionDiv"  style="background-color: white; border-radius: 50px; margin: 25px; padding: 25px; text-align: center; justify-content: center;">
+        <h3 style="color: darkslategrey;" id="question" style="padding: 10px; text-align: justify;"></h2>
+        <br>
+        <div id="checkDiv" style="background-color: white; border-radius: 50px; margin: 25px; padding: 25px; text-align: center; justify-content: center;">
+          <h3 style="color: darkslategrey;" id="check" style="padding: 10px; text-align: justify;"></h2>
+        </div>
+      </div>
+      
+</body>
+
+</html>

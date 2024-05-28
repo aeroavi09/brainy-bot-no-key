@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>BrainyBot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap"
+        rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">BrainyBot</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="causes.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div id="header-div">
+      <img style="border-radius: 50%;" src="logo.jpg" id="logoImage">
+      <h1 style="color: white;">BrainyBot</h1>
+    </div>
+    <div>
+      <hr style="color: aliceblue;">
+      <h2 style="color: white; text-align: center;">Mission Statement</h2>
+      <p style="color: white; margin: 10px; margin-left: 50px; margin-right: 50px; text-align: justify;">Empowering students to improve and excel academically, our Brain Bot offers a dynamic learning experience personally tailored for you. By allowing students to select their topics, we guide them through a comprehensive questioning process, which tests their current knowledge regarding the topic selected. Through interactive flashcards, games, and personalized feedback, we equip students with a deeper understanding of their chosen subjects while highlighting their areas for further growth. Our mission is to foster a culture of continuous learning in order to help students thrive and enrich their educational journey.
+      </p>
+    </div>
+    <div style="justify-content: center;align-items: center;align-content: center;text-align: center; margin: 40px;">
+      <hr style="color: aliceblue;">
+      <h2 style="color: white;">What is your grade level?</h2>
+      <hr style="color: aliceblue;">
+      <h4 style="color: white;">Enter Grade</h4>
+      <input id="gradeInput" placeholder="ex: 10" style="margin-bottom: 40px;">
+      <button type="button" class="btn btn-secondary" onclick="nextPage()">Next</button>
+    </div>
+    
+</body>
